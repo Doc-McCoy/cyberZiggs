@@ -17,7 +17,6 @@ extents = Vector2( 32, 32 )
 
 [node name="Player" type="KinematicBody2D" parent="." index="0"]
 
-editor/display_folded = true
 position = Vector2( 480, 288 )
 input_pickable = false
 collision_layer = 1
@@ -38,6 +37,8 @@ visible = false
 shape = SubResource( 1 )
 
 [node name="Floor" type="Node" parent="." index="1"]
+
+editor/display_folded = true
 
 [node name="Floor1" type="StaticBody2D" parent="Floor" index="0"]
 
