@@ -11,7 +11,7 @@ config_version=3
 [application]
 
 config/name="Cyber Ziggs"
-run/main_scene="res://scenes/CenarioTeste.tscn"
+run/main_scene="res://scenes/Cenario_teste_com_ziggs.tscn"
 config/icon="res://icon.png"
 
 [rendering]
